@@ -1,11 +1,13 @@
 
 
-import Form from './components/Form';
+import Forms from './components/Form';
+import OldForm from './components/OldForm'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Forms />
+      <OldForm />
     </div>
   );
 }
